@@ -2,9 +2,9 @@ var mysql = require('mysql');
 
 var mysqlConnection = mysql.createConnection({
    host: "DB_SERVER_IPADDRESS",
-   user: "DB_USER",
-   password: "DB_PASSWORD",
-   database: "DB_NAME"
+   user: "root",
+   password: "nutanix/4u",
+   database: "uptick"
 });
 
 mysqlConnection.connect(function(err) {
